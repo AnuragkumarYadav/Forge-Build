@@ -74,8 +74,8 @@ v{
     text-align: justify;
     text-decoration: double;
 }
-
-web3{
+/* Centered black box for the Web3 message */
+#web3{
     max-width: max-content;
     left: 50%;
     top: 90%;
