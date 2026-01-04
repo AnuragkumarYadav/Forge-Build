@@ -74,3 +74,18 @@ v{
     text-align: justify;
     text-decoration: double;
 }
+/* Centered black box for the Web3 message */
+#web3{
+    max-width: max-content;
+    left: 50%;
+    top: 90%;
+    align-content: center;
+    align-self: center;
+    background-color: black;
+    color: white;
+    padding: 17px 28px;
+    
+    font-size: 18px;
+    text-align: center;
+    
+}
