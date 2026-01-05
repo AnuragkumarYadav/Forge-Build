@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forge Build</title>
     <link rel="stylesheet" href="style.css">
-    <link href="script.jss">
+
 </head>
 
 
@@ -58,14 +58,19 @@
 
 <button onclick="showPrice()">Show Price</button>
 
-<f id="prices"></f>
+<p id="prices"></p>
 
-<div id="web3">my first web3 app</div>
-<br></br>
-<button onclick="connectWallet()">Connect Wallet</button>
-<p id="status">Not connected</p>
+<br>
+<button onclick="connect()">Connect MetaMask</button>
 
-<br><br>
+<input id="val" type="number">
+<button onclick="setValue()">Set</button>
+<button onclick="getValue()">Get</button>
+
+<p id="out"></p>
+
+<script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.min.js"></script>
+
 
 <script src="script.js"></script>
 
